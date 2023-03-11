@@ -6,14 +6,14 @@
 int main() {
     std::map<int, std::vector<std::string>> students_by_class;
 
-    // чтение данных из файла
+    // Г·ГІГҐГ­ГЁГҐ Г¤Г Г­Г­Г»Гµ ГЁГ§ ГґГ Г©Г«Г 
     int class_num;
     std::string surname;
     while (std::cin >> class_num >> surname) {
         students_by_class[class_num].push_back(surname);
     }
 
-    // вывод отсортированного списка учеников по классам
+    // ГўГ»ГўГ®Г¤ Г®ГІГ±Г®Г°ГІГЁГ°Г®ГўГ Г­Г­Г®ГЈГ® Г±ГЇГЁГ±ГЄГ  ГіГ·ГҐГ­ГЁГЄГ®Гў ГЇГ® ГЄГ«Г Г±Г±Г Г¬
     for (int class_num = 9; class_num <= 11; ++class_num) {
         auto it = students_by_class.find(class_num);
         if (it != students_by_class.end()) {
