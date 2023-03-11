@@ -4,7 +4,7 @@
 int main() {
     std::queue<int> player1, player2;
 
-    // чтение карт игроков
+    // Г·ГІГҐГ­ГЁГҐ ГЄГ Г°ГІ ГЁГЈГ°Г®ГЄГ®Гў
     for (int i = 0; i < 5; ++i) {
         int card;
         std::cin >> card;
